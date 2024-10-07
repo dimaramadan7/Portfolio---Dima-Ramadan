@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Dima Ramadan</title>
+    <!-- link font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- link file css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="contanier">
+        <a href="#home">
+          <img class="logo" src="img/logo.png" alt="logo" />
+        </a>
+        <i id="btn-menu" class="fa-solid fa-bars"></i>
+        <div class="nav-links">
+          <a href="#home" class="active">Home</a>
+          <a href="#about">About Me</a>
+          <a href="#services">Services</a>
+          <a href="#Portfolio">Portfolio</a>
+          <a href="#Contact">Contact Us</a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- start home sec -->
+    <div class="hero" id="home">
+      <div class="contanier">
+        <div class="content">
+          <h4>Hello, I'm</h4>
+          <h1>Dima Ramadan</h1>
+          <p>
+            Software Engineer <br />
+            Full-Stack Web Developer
+          </p>
+          <a href="#" class="btn">Download CV</a>
+        </div>
+
+        <div class="hero-img">
+          <img src="img/Website designer-bro.svg" alt="hero" />
+        </div>
+      </div>
+    </div>
+
+    <!-- start about sec -->
+    <section id="about" class="about">
+      <div class="contanier">
+        <div class="about-img">
+          <img src="img/Online Review-pana.svg" alt="img-about" />
+        </div>
+
+        <div class="content">
+          <h1>About <span>Me</span></h1>
+          <h3>Full-Stack Web Developer</h3>
+          <p dir="auto">
+            I am a computer engineer and web developer specializing in
+            Full-Stack Web Developer using PHP Laravel for the backend, and
+            React.js for the frontend. I have extensive experience in user
+            interface (UI) and user experience (UX) design, focusing on creating
+            comprehensive websites that are beautiful, cohesive, and
+            user-friendly. I always strive to develop effective digital
+            solutions that meet clients' needs by combining modern technologies
+            with innovative design.
+          </p>
+          <div class="btns">
+            <a href="#" class="btn">Download CV</a>
+            <a href="#" class="btn">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- start Services -->
+    <section id="services" class="services">
+      <div class="contanier">
+        <div class="sec-top">
+          <h1>Our Services <span>Provided</span></h1>
+        </div>
+
+        <div class="boxs">
+          <div class="box">
+            <i class="fa-solid fa-rocket"></i>
+            <h3>Fast Performance</h3>
+            <p dir="auto">
+              We strive to provide fast and efficient performance for your site,
+              ensuring a smooth and comfortable browsing experience for your
+              visitors, and contributing to improving your site's ranking in
+              search engine results.
+            </p>
+            <a href="#" class="btn">Read More</a>
+          </div>
+
+          <div class="box">
+            <i class="fa-solid fa-pen-ruler"></i>
+            <h3>Website Design</h3>
+            <p dir="auto">
+              We offer attractive and innovative website design services that
+              reflect your personality and fully meet your needs, ensuring an
+              excellent and unique user experience on your website.
+            </p>
+            <a href="#" class="btn">Read More</a>
+          </div>
+
+          <div class="box">
+            <i class="fa-solid fa-code"></i>
+            <h3>Clean Code</h3>
+            <p dir="auto">
+              We focus on writing and refining code with high precision,
+              ensuring that your personal website relies on clean and sound
+              coding, making future maintenance and development efficient.
+            </p>
+            <a href="#" class="btn">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- start Portfolio -->
+    <section id="Portfolio" class="portfolio">
+      <div class="contanier">
+        <div class="sec-top">
+          <h1>Latest <span>Projects</span></h1>
+        </div>
+
+        <div class="boxs">
+          <div class="box">
+            <div class="box-hover">
+              <span>Landing Page</span>
+            </div>
+            <img src="img/project1.png" alt="" />
+          </div>
+
+          <div class="box">
+            <div class="box-hover">
+              <span>Landing Page</span>
+            </div>
+            <img src="img/project2.png" alt="" />
+          </div>
+
+          <div class="box">
+            <div class="box-hover">
+              <span>Landing Page</span>
+            </div>
+            <img src="img/project3.png" alt="" />
+          </div>
+
+          <div class="box">
+            <div class="box-hover">
+              <span>Landing Page</span>
+            </div>
+            <img src="img/project4.png" alt="" />
+          </div>
+
+          <div class="box">
+            <div class="box-hover">
+              <span>Landing Page</span>
+            </div>
+            <img src="img/project5.png" alt="" />
+          </div>
+
+          <div class="box">
+            <div class="box-hover">
+              <span>Landing Page</span>
+            </div>
+            <img src="img/project6.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- start Contact -->
+    <section id="Contact" class="contact">
+      <div class="container">
+        <div class="sec-top">
+          <h1>Contact <span>Us</span></h1>
+        </div>
+
+        <form action="" dir="ltr">
+          <input type="text" placeholder="First Name" />
+          <input type="text" placeholder="Last Name" />
+          <input type="number" placeholder="Phone Number" />
+          <input type="email" placeholder="Email Address" />
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Your Message"
+          ></textarea>
+          <button class="btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+      <p class="footer__title">Contact me</p>
+      <div class="footer__social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+      </div>
+      <p class="footer__copy">
+        All Rights Reserved for &#169; Portfolio Dima Ramadan 2024
+      </p>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
